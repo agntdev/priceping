@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Set % Alert",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure percentage move alerts with 1-hour lookback"
+            }
+          }
+        ],
+        "send": {
+          "callback": "alert:percent"
+        }
+      }
+    ]
+  }
+]
