@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/price",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Check full watchlist prices or specific ticker with 1h/24h changes"
+            }
+          }
+        ],
+        "send": {
+          "text": "/price"
+        }
+      }
+    ]
+  }
+]
